@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const components = [
   HeaderComponent,
@@ -17,7 +18,7 @@ const routes: Routes = [
 ]
 
 @NgModule({
-  declarations: [...components],
+  declarations: [...components, PageNotFoundComponent],
   imports: [
     CommonModule,
     RouterModule.forRoot(routes)
