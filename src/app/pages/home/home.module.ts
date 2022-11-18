@@ -4,9 +4,7 @@ import { HomeComponent } from './home.component';
 import { RouterModule } from '@angular/router';
 import { HomeBannerComponent } from './banner/home-banner.component';
 import { HomeServiceComponent } from './service/home-service.component';
-import { HomeProductComponent } from './product/home-product.component';
 import { HomeAdvantagesComponent } from './advantages/home-advantages.component';
-import { HomeCoursesComponent } from './courses/home-courses.component';
 
 
 @NgModule({
@@ -14,9 +12,7 @@ import { HomeCoursesComponent } from './courses/home-courses.component';
     HomeComponent,
     HomeBannerComponent,
     HomeServiceComponent,
-    HomeProductComponent,
-    HomeAdvantagesComponent,
-    HomeCoursesComponent
+    HomeAdvantagesComponent
   ],
   imports: [
     CommonModule,
