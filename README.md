@@ -1,5 +1,24 @@
 # LivecodeMoneyMoney
 
+# list component
+
+1. Home
+ng g c pages/home/banner/home-banner --flat --skip-tests
+ng g c pages/home/service/home-service --flat --skip-tests
+ng g c pages/home/product/home-product --flat --skip-tests
+ng g c pages/home/advantages/home-advantages --flat --skip-tests
+ng g c pages/home/courses/home-courses --flat --skip-tests
+
+2. about
+ng g c pages/about/history/about-history --flat --skip-tests
+ng g c pages/about/info/about-info --flat --skip-tests
+ng g c pages/about/vision/about-vision --flat --skip-tests
+ng g c pages/about/contact/about-contact --flat --skip-tests
+
+3. articles
+ng g c pages/articles/banner/articles-banner --flat --skip-tests
+ng g c pages/articles/blog/articles-blog --flat --skip-tests
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
 ## Development server
